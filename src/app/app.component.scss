@@ -1,0 +1,26 @@
+$borderstyle: solid 2px #000;
+.container {
+    display: flex; 
+    height: 100vh;
+    flex: 1 1 auto;
+    overflow-x: auto;
+    min-width:  599px;
+}
+
+.col-1 {
+    width: 200px;
+    border: $borderstyle;
+}
+.col-2 {
+    width: calc(100% - 500px);
+    min-width: 100px;
+    border: $borderstyle;
+}
+.col-3 {
+    width: 300px;
+    border: $borderstyle;
+}
+
+@media screen and (max-width: 599px) { 
+
+}
